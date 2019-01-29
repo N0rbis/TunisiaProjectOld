@@ -1,0 +1,14 @@
+.ui.table thead tr:first-child > th:only-child{
+    background-color: #284456;
+    color: white;
+    font-size: 19px;
+
+}
+
+.ui.celled.table tr td:first-child{
+    font-size: 16px;
+}
+
+#table-container{
+    margin-bottom: 3em;
+}

@@ -1,0 +1,46 @@
+#form{
+    margin: 0 auto;
+    margin-top:2em;
+    text-align: left;
+    /*We have two colors because one of the browsers does not render the border at all. */
+    border: 1px solid #bbb; 
+    border: 1px solid rgb(34, 36, 38, .15);
+    border-radius: 10px;
+}
+h1{
+    padding-top: 2em; 
+}
+h2{
+    text-align: left;
+    padding-top:5em;
+}
+#space{
+    padding-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+#check-space{
+    text-align: center;
+    padding-top: 5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4em;
+
+}
+
+.error_field{
+    border-color: red !important;
+}
+
+.correct_field{
+    background-color: white !important;
+}
+span{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap
+}
+
+span.text{
+    color: black!important;
+}

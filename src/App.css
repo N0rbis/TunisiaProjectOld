@@ -1,0 +1,76 @@
+
+
+#root{
+  height: inherit;
+}
+.App {
+  text-align: center;
+  height: inherit;
+}
+
+.ui.grid{
+  height: inherit;
+  width: inherit;
+}
+
+
+.ui.huge.menu {
+  display: flex;
+  background-color: #284456;
+  border-radius: 0%;
+}
+
+.App-logo{
+  width: 80px !important;
+}
+
+.App-footer{
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  background: #284456 ;
+}
+
+.App-logofooter{
+  width: 5%;
+  align-self: center;
+  margin-left: 1%;
+}
+
+.App-reportfooter{
+  color: white;
+  font-style: italic;
+  align-self: center;
+  margin-right: 1%;
+}
+
+.App-copyrightfooter{
+  color: white;
+  align-self: center;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.7%;
+  font-size: 80%;
+}
+
+#header-row{
+  height: 10%;
+  z-index: 1;
+}
+
+#main-row{
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+  margin-top: -6.5%;
+}
+
+#footer-row{
+  height: 10%;
+  padding-bottom: 0;
+  position: absolute;
+  bottom:0;
+  width: inherit;
+}

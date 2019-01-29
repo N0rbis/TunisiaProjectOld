@@ -1,0 +1,10 @@
+#nextStepButton {
+    display:flex;
+    justify-content: right;
+    margin-right: 8em;
+    margin-bottom: 3em; 
+}
+#PendingMessage{
+    color: red;
+    margin-bottom: 3em; 
+}

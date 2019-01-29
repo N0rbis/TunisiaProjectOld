@@ -1,0 +1,23 @@
+{
+  "name": "tunisia-recruitment-front",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "npm": "^6.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-localization": "^1.0.10",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.80.0",
+    "swagger-client": "^3.8.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp -r ./build ../main/resources/static",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

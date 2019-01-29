@@ -1,0 +1,12 @@
+#Checked{
+    display:inline-block;
+}
+
+#Unchecked{
+    display:inline-block;
+}
+
+i.green.minus.big.icon.Line{
+    margin-left: -0.4em;
+    margin-right: -0.3em;
+}

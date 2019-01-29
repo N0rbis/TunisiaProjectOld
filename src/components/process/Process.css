@@ -1,0 +1,52 @@
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid rgb(34, 36, 38, .15);
+    border-radius: 10px;
+    margin-top: 2em;
+}
+h1{
+    padding-top: 2em; 
+    margin-top: 5em;
+    text-align: center;
+}
+h2{
+    text-align: left;
+    padding-top:5em;
+}
+#space{
+    padding-top: 5em;
+}
+.processname{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;  
+}
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.processCont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+#check-space{
+    text-align: center;
+    padding-top: 5em;
+    margin-bottom: 4em;
+
+}
+.error_field{
+    border-color: red !important;
+}
+.correct_field{
+    background-color: white !important;
+}
+
