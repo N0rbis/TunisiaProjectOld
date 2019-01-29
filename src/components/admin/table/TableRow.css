@@ -1,0 +1,13 @@
+.ui.celled.table {
+   text-align: center;
+}
+
+.notes{
+   width: 30em;
+}
+.NeedConfirm{
+   color: red;
+}
+.NoNeedConfirm{
+   color: black;
+}

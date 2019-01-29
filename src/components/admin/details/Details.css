@@ -1,0 +1,26 @@
+.Details-card{
+    text-align: left;
+}
+
+.Details-name{
+   font-size: 1em;
+}
+
+.Details-email{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+.Details-pending1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    color: red;
+}
+.Details-pending2{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+

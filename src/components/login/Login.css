@@ -1,0 +1,29 @@
+.error_field{
+    color: #fc555f!important;
+    background-color: #f9e5e7!important;
+    border-color: #fc555f!important;
+}
+
+.success_field{
+    color: #00529B!important;
+    background-color: #c4fcd8!important;
+}
+
+span{
+    color: #fc555f!important;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap
+}
+
+.field{
+    width: 100%;
+}
+
+#login-container{
+    width: 50% !important;
+    border: 1px solid #bbb;
+    padding: 3em;
+    border-radius: 15px;
+
+}

@@ -1,0 +1,24 @@
+.Form{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(34, 36, 38, .15);
+    border-radius: 10px;
+    padding: 4em;
+}
+h1{
+    text-align: center;
+}
+
+#form-button-control-submit{
+    text-align: center;
+}
+.ui.form .field>label {
+    
+    text-align: left;
+}
+#form-button-control-submit{
+    margin-top: 4em;
+}
+#form-textarea-control-Message{
+    height: 15em;
+}
